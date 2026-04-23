@@ -17,12 +17,11 @@
 ## Özet
 
 Signal, güvenlik araştırmacıları ve gizlilik savunucuları tarafından
-mesajlaşma uygulamaları arasında altın standart olarak gösterilen
-platformdur. Temel farkı şudur: toplamadığı veriyi paylaşması
-mümkün değildir. WhatsApp ile kıyaslandığında veri minimizasyonu
-açısından tartışmasız üstündür. Ancak ABD merkezli bir şirket
-olması ve Türkçe yasal belgelerinin bulunmaması dikkat gerektiren
-noktalardır.
+mesajlaşma uygulamaları arasında referans olarak gösterilen
+platformdur. Temel argümanı şudur: toplamadığı veriyi paylaşması
+mümkün değildir. Ancak bu itibar kısmen güvenlik camiasının
+genel eğilimini yansıtmaktadır. Aşağıda hem güçlü yönler hem de
+gerçek bilinmezlikler dürüstçe aktarılmaktadır.
 
 ---
 
@@ -31,10 +30,11 @@ noktalardır.
 | Kriter | Değer |
 |---|---|
 | Genel risk skoru | 🟢 2 / 10 |
-| Veri yurt dışı riski | 🟡 Orta (ABD sunucuları, ama veri minimal) |
 | Metadata toplama | 🟢 Minimal |
 | Şeffaflık | 🟢 Açık kaynak, denetlenebilir |
 | Ticari motivasyon | 🟢 Kâr amacı gütmeyen vakıf |
+| Sunucu egemenliği | 🟡 ABD (ama veri minimal) |
+| Belge güncelliği | 🔴 2018'den bu yana güncellenmemiş |
 
 ---
 
@@ -64,30 +64,25 @@ Mesaj içerikleri, grup üyelikleri, profil bilgileri ve
 iletişim örüntüleri uçtan uca şifreli olduğundan
 Signal sunucuları bunlara **erişememektedir.**
 
-Bu taahhüdün gerçek dünyada sınanmış bir kanıtı
-mevcuttur: 2016 yılında ABD Federal Soruşturma Bürosu
-(FBI) bir mahkeme kararıyla Signal'den kullanıcı verisi
-talep etmiştir. Signal'in verebileceği yalnızca iki
-bilgi olmuştur: hesabın oluşturulduğu tarih aralığı ve
-sunucuya son bağlantı tarihi. Bu süreç kamuya açık
-mahkeme belgeleriyle kayıt altındadır.
+Bu taahhüdün gerçek dünyada sınanmış bir kanıtı mevcuttur:
+2016 yılında ABD Federal Soruşturma Bürosu (FBI) bir mahkeme
+kararıyla Signal'den kullanıcı verisi talep etmiştir. Signal'in
+verebileceği yalnızca iki bilgi olmuştur: hesabın oluşturulduğu
+tarih aralığı ve sunucuya son bağlantı tarihi. Bu süreç kamuya
+açık mahkeme belgeleriyle kayıt altındadır.
 
 **Kaynak:** Signal Gizlilik Politikası "Account Information"
-ve "Messages" bölümleri · FBI mahkeme belgesi (2016,
-kamuya açık)
+ve "Messages" bölümleri · FBI mahkeme belgesi (2016, kamuya açık)
 
 ---
 
 ### Rehber Gizliliği Kriptografik Olarak Korunuyor
 
-Gizlilik Politikasına göre hangi rehber kişilerinin
-Signal kullandığını tespit etmek için telefon numaraları
-**kriptografik hash** yöntemiyle işlenmektedir. Bu
-yöntemde Signal sunucuları rehberdeki gerçek numaraları
-görmez; yalnızca hash değerlerini karşılaştırır.
-
-Bu yaklaşım WhatsApp ve BiP'ten temel olarak ayrışan
-bir gizlilik tasarımıdır.
+Gizlilik Politikasına göre rehber kişilerinin Signal kullanıcısı
+olup olmadığını tespit etmek için telefon numaraları
+**kriptografik hash** yöntemiyle işlenmektedir. Signal
+sunucuları gerçek numaraları görmez; yalnızca hash
+değerlerini karşılaştırır.
 
 **Kaynak:** Signal Gizlilik Politikası "Contacts" bölümü
 
@@ -95,12 +90,9 @@ bir gizlilik tasarımıdır.
 
 ### Açık Kaynak ve Bağımsız Denetim
 
-Signal'in tüm istemci uygulamaları ve sunucu kodu
-AGPL-3.0 lisansı altında GitHub'da kamuya açıktır.
-Bağımsız güvenlik araştırmacıları kodu her an
-denetleyebilmektedir. Bu durum "güvenilir" olduğunu
-söylemek ile "denetlenebilir olduğu için güvenilir"
-olmak arasındaki kritik farkı temsil eder.
+Signal'in tüm istemci ve sunucu kodu AGPL-3.0 lisansı altında
+kamuya açıktır. Bağımsız güvenlik araştırmacıları kodu her an
+denetleyebilmektedir.
 
 **Kaynak:** github.com/signalapp
 
@@ -109,27 +101,22 @@ olmak arasındaki kritik farkı temsil eder.
 ### Kâr Amacı Gütmeyen Yapı
 
 Signal Technology Foundation, ABD'de 501(c)(3) statüsünde
-tescilli bir kâr amacı gütmeyen vakıftır. Geliri
-bağışlardan oluşmaktadır. Reklam geliri modeli yoktur;
-dolayısıyla kullanıcı davranışlarını monetize etme
-motivasyonu da yoktur.
+tescilli bir kâr amacı gütmeyen vakıftır. Geliri bağışlardan
+oluşmakta olup reklam geliri modeli bulunmamaktadır.
 
 ---
 
 ## 🟡 Dikkat Edilmesi Gereken Maddeler
 
-### ABD Merkezli Kuruluş
+### ABD Merkezli Kuruluş ve Mahkeme Yeri
 
-Signal Messenger LLC, Mountain View, California'da
-kayıtlı bir ABD şirketidir. Hizmet Şartlarının
-"Resolving Disputes" maddesine göre tüm uyuşmazlıklar
-**Kuzey Kaliforniya mahkemelerinde, Kaliforniya hukukuna
-göre** çözülür.
+Signal Messenger LLC, Mountain View, California'da kayıtlı bir
+ABD şirketidir. Hizmet Şartlarının "Resolving Disputes" maddesine
+göre tüm uyuşmazlıklar münhasıran **Kuzey Kaliforniya
+mahkemelerinde, Kaliforniya hukukuna göre** çözülür.
 
-Bu madde WhatsApp ile aynı yapıdadır. Farkı şudur:
-Signal'in elinde paylaşabileceği anlamlı kullanıcı
-verisi bulunmadığından ABD hükümeti taleplerine
-verebileceği yanıt son derece sınırlıdır.
+Bu madde yapı olarak WhatsApp ile aynıdır. Farkı şudur: Signal'in
+elinde paylaşabileceği anlamlı kullanıcı verisi son derece sınırlıdır.
 
 **Kaynak:** Signal Hizmet Şartları "Resolving disputes" maddesi
 
@@ -137,21 +124,18 @@ verebileceği yanıt son derece sınırlıdır.
 
 ### Tazminat Tavanı 100 USD
 
-"Limitation of Liability" maddesine göre Signal'in
-azami sorumluluğu **100 USD** ile sınırlandırılmıştır.
-Bu madde WhatsApp ile aynıdır.
+"Limitation of Liability" maddesine göre Signal'in azami
+sorumluluğu **100 USD** ile sınırlandırılmıştır.
 
 **Kaynak:** Signal Hizmet Şartları "Limitation of liability"
 
 ---
 
-### Gizlilik Politikası Güncelleme Tarihi: 2018
+### Gizlilik Politikası 2018'den Bu Yana Güncellenmemiş
 
-Signal'in mevcut Gizlilik Politikası 25 Mayıs 2018
-tarihlidir. Yedi yıldır resmi olarak güncellenmemiş
-olması şeffaflık açısından bir eksikliktir; güncel
-uygulama ile belge arasında fark olup olmadığını
-doğrulamak kullanıcılar açısından güçleşmektedir.
+Signal'in mevcut Gizlilik Politikası 25 Mayıs 2018 tarihlidir.
+Yedi yıldır resmi olarak güncellenmemiş olması şeffaflık
+açısından önemli bir eksikliktir.
 
 **Kaynak:** Signal Gizlilik Politikası "Updated" notu
 
@@ -159,41 +143,51 @@ doğrulamak kullanıcılar açısından güçleşmektedir.
 
 ### Telefon Numarası Zorunlu
 
-Hesap açmak için telefon numarası zorunludur. Bu durum
-tam anonimliği engellemektedir. Signal, Mart 2024
-itibarıyla kullanıcı adı özelliğini hayata geçirmiş
-olup artık telefon numaranızı diğer kullanıcılardan
-gizleyebilirsiniz — ancak kayıt için numara zorunluluğu
-devam etmektedir.
-
-**Kaynak:** Signal Hizmet Şartları "Account Registration"
-· Wikipedia Signal maddesi (kullanıcı adı özelliği)
+Hesap açmak için telefon numarası zorunludur. Mart 2024 itibarıyla
+kullanıcı adı özelliği eklenmiş olup artık numaranızı diğer
+kullanıcılardan gizleyebilirsiniz. Ancak kayıt için zorunluluk devam
+etmektedir.
 
 ---
 
-### Şartlar Değişebilir
+## ⚠️ Dürüst Değerlendirme: Signal Hakkında Bilinmezler
 
-Hizmet Şartlarına göre Signal koşulları istediği zaman
-güncelleyebilir. Kullanmaya devam etmek yeni şartları
-kabul etmek anlamına gelir.
+Signal güvenlik camiasında neredeyse tartışmasız referans olarak
+sunulur. Bu eğilim meşru temellere dayanmakla birlikte bazı
+önemli bilinmezlikleri göz ardı etmek analiz taraflılığı yaratır.
 
-**Kaynak:** Signal Hizmet Şartları "General" bölümü
+**"Kodu açık, ama çalıştırdıkları kodu denetleyemezsiniz"**
 
----
+Açık kaynak kod yayımlanmış olması, Signal'in sunucularında
+gerçekte ne çalıştığını doğrulamayı mümkün kılmaz. Kapalı bir
+veri merkezinde hangi kodun aktif olduğunu bağımsız olarak
+doğrulamak teknik olarak imkânsızdır. Açık kaynak bir güven
+göstergesidir, mutlak bir kanıt değildir.
 
-## WhatsApp ile Karşılaştırma
+**CLOUD Act riski gerçektir**
 
-| Kriter | WhatsApp | Signal |
-|---|---|---|
-| Veri satışı | Belirsiz 🔴 | Kesinlikle yok 🟢 |
-| Mesaj içeriği | Şifreli, erişilemiyor | Şifreli, erişilemiyor |
-| Metadata toplama | Kapsamlı 🔴 | Minimal 🟢 |
-| Rehber işleme | Düz metin yükleme 🔴 | Kriptografik hash 🟢 |
-| Açık kaynak | Hayır 🔴 | Evet 🟢 |
-| Ticari yapı | Kâr amaçlı (Meta) 🔴 | Kâr amacı gütmeyen 🟢 |
-| Sunucu konumu | ABD 🔴 | ABD 🟡 |
-| Mahkeme yeri | Kaliforniya 🔴 | Kaliforniya 🟡 |
-| Hükümete verilebilecek veri | Kapsamlı 🔴 | Neredeyse yok 🟢 |
+Signal "toplamadığı veriyi veremez" argümanıyla güçlüdür. Ancak
+ABD şirketi olması nedeniyle CLOUD Act kapsamında yasal taleplere
+muhatap olabilir. Bugün minimal veri topladığı doğru olsa bile
+politika değişiklikleri her zaman mümkündür.
+
+**Merkezi yapı ve erişim engeli riski**
+
+Signal'in mimarisi merkezi sunuculara dayanmaktadır. Bu durum
+tek nokta kırılganlığı yaratır. Nitekim Rusya, İran, Çin ve
+Venezuela Signal'i erişim engeliyle karşılamıştır. Matrix/NEXT
+gibi federatif yapılar bu riski dağıtır.
+
+**Sürdürülebilirlik belirsizliği**
+
+Tamamen bağışlarla finanse edilmektedir. Finansal baskı altında
+iş modelinin değişip değişmeyeceği bilinmemektedir.
+
+**Sonuç:** Signal bugün itibarıyla teknik güvenlik açısından
+güçlü seçeneklerden biridir. Ancak "altın standart"
+nitelendirmesi kısmen güvenlik camiasının genel eğilimini
+yansıtmaktadır. Her kullanıcının kendi tehdit modeline göre
+değerlendirmesi önerilir.
 
 ---
 
@@ -201,15 +195,14 @@ kabul etmek anlamına gelir.
 
 - Maksimum gizlilik ve güvenlik arayanlar
 - Gazeteciler, avukatlar, aktivistler
-- Teknik güvenilirliği kanıtlanmış platform isteyenler
 - Açık kaynak denetimi öncelik olarak görenler
 
 ## Kimler İçin Sınırlı Kalabilir?
 
-- Verilerinin Türkiye'de kalmasını kesin olarak
-  isteyenler (BiP veya NEXT daha uygun)
+- Verilerinin Türkiye'de kalmasını kesin olarak isteyenler
 - Türkçe yasal belge arayanlar
-- Yalnızca Türkçe arayüz isteyenler
+- Erişim engeli riskine karşı dayanıklılık isteyenler
+- Federatif/kendi sunucu yapısı arayanlar
 
 ---
 
