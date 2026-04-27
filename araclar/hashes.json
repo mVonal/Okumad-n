@@ -4,41 +4,48 @@
     "belge": "Hizmet Şartları",
     "url": "https://www.whatsapp.com/legal/terms-of-service",
     "hash": "72650737eb843b4d35328b2813b91fa76d4abdfedc48b366d2947c8138f147dd",
-    "son_kontrol": "2026-04-23T13:55:40.316152+00:00"
+    "son_kontrol": "2026-04-27T11:01:41.397560+00:00"
   },
   "whatsapp-privacy": {
     "platform": "WhatsApp",
     "belge": "Gizlilik Politikası",
     "url": "https://www.whatsapp.com/legal/privacy-policy",
     "hash": "1ec6ea814edfe6dacc252666c41b5062c6f737df95d5f6e1f6e69463f6d8ef8e",
-    "son_kontrol": "2026-04-23T13:55:40.925036+00:00"
+    "son_kontrol": "2026-04-27T11:01:41.904566+00:00"
   },
   "whatsapp-cookies": {
     "platform": "WhatsApp",
     "belge": "Çerez Politikası",
     "url": "https://www.whatsapp.com/legal/cookies",
     "hash": "35d8c4d5506c099152fc724b301a2bb34e62f0f36d176f5f891eedc81b7cc65c",
-    "son_kontrol": "2026-04-23T13:55:41.564886+00:00"
+    "son_kontrol": "2026-04-27T11:01:42.365189+00:00"
   },
   "bip-gizlilik": {
     "platform": "BiP",
     "belge": "Aydınlatma Metni",
     "url": "https://bip.com/tr/gizlilik-politikasi/",
     "hash": "0d43ea90c3d379aa6eaa9aba76e0682fc860cd6230b76bb431cc688b207569e3",
-    "son_kontrol": "2026-04-23T13:55:42.563504+00:00"
+    "son_kontrol": "2026-04-27T11:01:43.143063+00:00"
   },
   "bip-kullanim": {
     "platform": "BiP",
     "belge": "Kullanım Koşulları",
     "url": "https://bip.com/tr/kullanim-kosullari/",
     "hash": "6f10d12facc9f3168ee6b3744e63e04163edbdfd5a061dc3ca4c55176e6f2158",
-    "son_kontrol": "2026-04-23T13:55:43.185431+00:00"
+    "son_kontrol": "2026-04-27T11:01:43.913246+00:00"
   },
   "signal-legal": {
     "platform": "Signal",
     "belge": "Hizmet Şartları ve Gizlilik Politikası",
     "url": "https://signal.org/legal/",
     "hash": "1824bb627944ee495c5081207fe547e568fa2d21d778fe9b1ccc836d40c9231e",
-    "son_kontrol": "2026-04-23T13:55:43.336100+00:00"
+    "son_kontrol": "2026-04-27T11:01:44.023907+00:00"
+  },
+  "trendyol-kvkk": {
+    "platform": "Trendyol",
+    "belge": "Aydınlatma Metni",
+    "url": "https://www.trendyol.com/kisisel_verilerin_korunmasi",
+    "hash": "6ce33c1bc8ff138a8cc3b7fde8ee2009f7dfbfed4f09aa8a25a6ff264a49dcf0",
+    "son_kontrol": "2026-04-27T11:01:45.049465+00:00"
   }
 }
