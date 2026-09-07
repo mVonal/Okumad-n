@@ -64,12 +64,12 @@ Kariyer
 Marka Merkezi
 Gizlilik
 WhatsApp'ı kullanın
-Android
-iPhone
-Mac/PC
+Mobil
+Masaüstü
+Tablet
 WhatsApp Web
 Yardıma mı ihtiyacınız var?
-Bizimle İletişime Geçin
+Bizimle İletişime Geç
 Yardım Merkezi
 Uygulamalar
 Güvenlik Tavsiyeleri
@@ -77,50 +77,17 @@ Güvenlik Tavsiyeleri
 2026 © WhatsApp LLC
 Koşullar ve Gizlilik İlkesi
 Site haritası
-Afrikaans
-Bahasa Indonesia
-Melayu
-čeština
-Deutsch
-English
-Gaeilge
-Kiswahili
-Nederlands
-Filipino
-Português (Brasil)
-Português (Portugal)
-Tiếng Việt
 Türkçe
-Ελληνικά
-български
-қазақ тілі
-македонски
-русский
-српски
-українська
-עברית
-العربية
-فارسی
-اردو
-বাংলা
-हिन्दी
-ગુજરાતી
-ಕನ್ನಡ
-मराठी
-ਪੰਜਾਬੀ
-தமிழ்
-తెలుగు
-മലയാളം
-ไทย
-简体中文
-繁體中文（台灣）
-繁體中文（香港）
-日本語
-한국어
-azərbaycan
+Bir bölge seç
+Tüm diller (60)
+Afrika ve Orta Doğu (6)
+Kuzey ve Güney Amerika (4)
+Asya-Pasifik (22)
+Doğu Avrupa (17)
+Batı Avrupa (14)
 Afrikaans
+azərbaycan
 Bahasa Indonesia
-Melayu
 català
 čeština
 dansk
@@ -128,6 +95,7 @@ Deutsch
 eesti
 English
 español
+Filipino
 français
 Gaeilge
 hrvatski
@@ -136,10 +104,10 @@ Kiswahili
 latviešu
 lietuvių
 magyar
+Melayu
 Nederlands
 norsk bokmål
 o‘zbek
-Filipino
 polski
 Português (Brasil)
 Português (Portugal)
@@ -159,21 +127,21 @@ Türkçe
 српски
 українська
 עברית
+اردو
 العربية
 فارسی
-اردو
-বাংলা
-हिन्दी
-ગુજરાતી
-ಕನ್ನಡ
 मराठी
+हिन्दी
+বাংলা
 ਪੰਜਾਬੀ
+ગુજરાતી
 தமிழ்
 తెలుగు
+ಕನ್ನಡ
 മലയാളം
 ไทย
+한국어
+日本語
 简体中文
 繁體中文（台灣）
 繁體中文（香港）
-日本語
-한국어
